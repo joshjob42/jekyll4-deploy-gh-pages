@@ -4,7 +4,7 @@ set -e
 
 DEST="${JEKYLL_DESTINATION:-_site}"
 REPO="https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
-BRANCH="gh-pages"
+BRANCH="main"
 BUNDLE_BUILD__SASSC=--disable-march-tune-native
 
 echo "Installing gems..."
